@@ -27,7 +27,6 @@
     "docker:build": "docker build -t myapp .",
     "docker:run": "docker run -p 3000:3000 -d myapp",
     "migrate": "node ./dist/migrate",
-    "prestart": "npm run build",
     "start": "node -r source-map-support/register .",
     "clean": "lb-clean dist *.tsbuildinfo .eslintcache"
   },
